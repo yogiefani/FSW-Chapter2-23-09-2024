@@ -57,12 +57,17 @@ footer {
 }
 
 .pressed {
-  box-shadow: 0 3px 4px 0 #DBEDF3;
-  opacity: 0.5;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  transform: scale(0.9);
+  background-color: #f1c40f;
+  transition: all 0.1s;
 }
 
+
 .red {
-  color: red;
+  background-color: red!important;
+  color: red!important;
+  transition: background-color 0.2s ease;
 }
 
 .drum {
